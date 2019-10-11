@@ -22,7 +22,7 @@ func NewUserController() *UserController {
 func (uc UserController) GetUser(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 	// Stub an example user
 	u := models.User{
-		Name:   "Bob Smith",
+		Name:   "Pradeep Malla",
 		Gender: "male",
 		Age:    50,
 		Id:     p.ByName("id"),

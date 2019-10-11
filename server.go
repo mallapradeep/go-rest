@@ -7,7 +7,8 @@ import (
 
 	// Third party packages
 	"github.com/julienschmidt/httprouter"
-	"github.com/mallapradeep.go-rest/controllers"
+	"github.com/mallapradeep/go-rest/controllers"
+	"github.com/mallapradeep/go-rest/tree/master/controllers"
 )
 
 func main() {
